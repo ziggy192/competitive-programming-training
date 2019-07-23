@@ -1,4 +1,4 @@
-package com.ziggy192.UVa;
+package com.ziggy192.uVA;
 
 import java.util.ArrayList;
 import java.util.List;
