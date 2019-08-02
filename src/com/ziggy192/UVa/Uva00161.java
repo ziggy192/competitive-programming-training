@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class TrafficLight_00161 {
+public class Uva00161 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 //        Scanner scanner = new Scanner("19 20 0 \n" +
