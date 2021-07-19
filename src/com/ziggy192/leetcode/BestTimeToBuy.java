@@ -1,6 +1,8 @@
 package com.ziggy192.leetcode;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Best Time to Buy and Sell Stock II
@@ -37,7 +39,7 @@ import java.util.Arrays;
 public class BestTimeToBuy {
 
 	public static void main(String[] args) {
-
+		new HashMap<>();
 	}
 
 	/**
@@ -53,6 +55,7 @@ public class BestTimeToBuy {
 		public int maxProfit(int[] prices) {
 			l = new int[prices.length];
 			int max = 0;
+			Map<Integer, Integer> map = new HashMap<>();
 			Arrays.fill(l, 0);
 			for (int i = 1; i < prices.length; i++) {
 				int curL = 0;
