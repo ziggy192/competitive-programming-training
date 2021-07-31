@@ -1,4 +1,4 @@
-package com.ziggy192.leetcode;
+package com.ziggy192.leetcode.explore.topInterviewQuestions;
 
 /**
  * Given an array, rotate the array to the right by k steps, where k is non-negative.
@@ -48,5 +48,6 @@ public class RotateArray {
 				j--;
 			}
 		}
+
 	}
 }

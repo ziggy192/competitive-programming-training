@@ -1,4 +1,4 @@
-package com.ziggy192.leetcode;
+package com.ziggy192.leetcode.explore.topInterviewQuestions;
 
 import java.util.Arrays;
 import java.util.HashMap;

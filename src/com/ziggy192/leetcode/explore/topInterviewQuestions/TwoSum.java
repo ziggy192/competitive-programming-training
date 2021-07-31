@@ -1,15 +1,15 @@
-package com.ziggy192.leetcode;
+package com.ziggy192.leetcode.explore.topInterviewQuestions;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Remove Duplicates from Sorted Array
  */
 public class TwoSum{
 	public static void main(String[] args) {
+		Queue<Integer> q = new LinkedList<>();
+		List<Integer> l = new ArrayList<>();
+		l.toArray(new Integer[0]);
 		System.out.println(Arrays.toString(new Solution().twoSum(new int[]{3,2,4}, 6)));
 	}
 
